@@ -1,20 +1,36 @@
 {
-    "transactions": [
-      {
-        "id": 1,
-        "description": "Desenvolvimento de site",
-        "type": "income",
-        "category": "Venda",
-        "price": 14000,
-        "createdAt": "2022-07-29T19:36:44.505Z"
-      },
-      {
-        "id": 2,
-        "description": "Hambúrguer",
-        "type": "outcome",
-        "category": "Alimentação",
-        "price": 50,
-        "createdAt": "2022-07-29T19:30:44.505Z"
-      }
-    ]
-  }
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2022-07-29T19:36:44.505Z"
+    },
+    {
+      "id": 2,
+      "description": "Hambúrguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2022-07-29T19:30:44.505Z"
+    },
+    {
+      "category": "Desenvolvimento",
+      "description": "Desenvolvimento de app",
+      "price": 10000,
+      "type": "income",
+      "createdAt": "2022-08-13T12:25:34.373Z",
+      "id": 3
+    },
+    {
+      "category": "Casa",
+      "description": "Aluguel",
+      "price": 1300,
+      "type": "outcome",
+      "createdAt": "2022-08-13T13:08:11.630Z",
+      "id": 4
+    }
+  ]
+}
